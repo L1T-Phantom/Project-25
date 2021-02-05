@@ -33,8 +33,8 @@ function draw() {
 	background(206,237,227);
 	Engine.update(engine);
 	
-	paperBall.display();
 	newGround.display();
+	paperBall.display();
 	bin1.display();
 	bin2.display();
 	bin3.display();
