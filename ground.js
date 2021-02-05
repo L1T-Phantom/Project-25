@@ -6,7 +6,7 @@ class Ground {
     this.body = Bodies.rectangle(x,y,width,height,options);
     this.width = width;
     this.height = height;
-    this.body = loadImage("groundImage.png");
+    this.image = loadImage("groundImage.png");
     World.add(world,this.body);
 }
 
